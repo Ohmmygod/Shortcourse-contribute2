@@ -3,8 +3,8 @@ public class main {
         System.out.println("=== Simple Calculator ===");
 
         // INPUT START
-        int firstNumber = 10;
-        int secondNumber = 5;
+        int firstNumber = Integer.parseInt(args[0]);
+        int secondNumber = Integer.parseInt(args[1]);
         // INPUT END
 
         System.out.println("Addition: " +
